@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #f9f9f9;
+    height: 10vh;
+
+}
+
+.logo {
+    display: flex;
+    background-color: #ffbf58;
+    border-radius: 45px;
+    width: 15%;
+    height: 8vh;
+    margin-left: 5%;     margin-top: 2%;
+    align-items: center;    justify-content: center;
+}
+
+.hamburguer img {
+    display: flex;
+    margin-left: 80%;   margin-top: -7vh;
+    width: 12%;
+}
+
+.categorias {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.categorias a {
+    color: #232222;
+    text-decoration: underline solid;
+    text-decoration-color: #cccccc;
+    font-size: 14px;
+    padding: 1.5%;
+    border-bottom: 10px;
+}
+
+.categorias a:hover {
+    text-decoration: underline solid;
+    text-decoration-color: #f45a4f;
+}
+
+.cardboard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #cccccc;
+    border: 1px solid #232222;
+    border-radius: 8px;
+    height: 50vh;
+    width: 80%;
+    margin-left: 30px; margin-top: 15px;
+}
+
+.botao {
+    display: flex;
+    align-items: center; justify-content: center;
+    background-color: #f45a4f;
+    width: 80%;
+    height: 5vh;
+    border-radius: 8px; border: none;
+    margin-left: 30px; margin-top: 15px;
+    font-size: 16px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;    align-items: center;
+    height: 5vh;
+    background-color: #00bf9f;
+    margin-top: 20vh;
+    font-weight: bold;
+}
